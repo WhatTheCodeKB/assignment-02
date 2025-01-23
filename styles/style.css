@@ -14,3 +14,175 @@
     margin: 0;
 }
 
+/* header styles*/
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 140px;
+}
+.logo-brand-name{
+    display: flex;
+    align-items: center;
+}
+.brand{
+    margin-left: 11px;
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+.nav-items{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgba(254, 153, 117, 0.158);
+    padding: 10px;
+    border-radius: 5px;
+}
+#nav-link1{
+    margin-right: 32px;
+    color: orange;
+}
+#nav-link2{
+    margin-right: 32px;
+    color: skyblue;
+}
+#nav-link3{
+    margin-right: 32px;
+    color: rgba(5, 212, 223, 1);
+}
+#nav-link4{
+    color: rgba(93, 88, 239, 1);
+}
+.nav-menu-bar{
+    display: none;
+}
+#menu{
+    font-size: 32px;
+}
+#menu:hover{
+    font-size: 32px;
+    color: orange;
+}
+.banner{
+    display: flex;
+    margin: 0px 141px;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-slogan{
+    margin-right: 50px;
+}
+.banner-img{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: end;
+}
+h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.banner-slogan p{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.btn-typ1{
+    color: white;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: orange;
+    padding: 10px 60.5px;
+    border: none;
+    border-radius: 12px;
+}
+.btn-typ1:hover{
+    color: orange;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    padding: 10px 60.5px;
+    border: 2px solid orange;
+    border-radius: 12px;
+}
+.btn-typ2{
+    color: white;
+    background-color: black;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 47px;
+    border: none;
+    border-radius: 12px;
+}
+.btn-typ2:hover{
+    color: black;
+    background-color: white;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 47px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.date1{
+    position: relative;
+    top:-40px;
+    left: 40px;
+ }
+.date2{
+   position: relative;
+   top:-40px;
+   left: 40px;
+}
+.date-typ1{
+   font-family: "Raleway", serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-size: 15px;
+   font-weight: 500;
+   color: white;
+   background-color: rgba(60, 216, 232, 1);
+   padding: 15px 19px;
+   border: none;
+   border-radius: 48px;
+}
+.date-typ2{
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(149, 178, 38, 1);
+    padding: 15px 19px;
+    border: none;
+    border-radius: 48px;
+}
+.date-typ3{
+   font-family: "Raleway", serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-size: 15px;
+   font-weight: 500;
+   color: white;
+   background-color: rgba(93, 88, 240, 1);
+   padding: 15px 19px;
+   border: none;
+   border-radius: 48px;
+}
+
