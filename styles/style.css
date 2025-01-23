@@ -380,3 +380,64 @@ h1{
     padding: 0px 38px 30px;
 }
 
+/* footer styles */
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(1, 172, 253, 1);
+    color: white;
+    padding: 127px 170px 170px;
+}
+.mom-container{
+    display: grid;
+    grid-template-columns: 2fr repeat(2,1fr);
+    column-gap: 150px;
+}
+.c1-item1{
+    display: flex;
+    margin-bottom: 35px;
+    column-gap: 20px;
+}
+.c1-item1-logo{
+    width: 85px;
+}
+.c1-item1-logo img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.c1-item1 h2{
+    display: flex;
+    font-size: 42px;
+    font-weight: 700;
+    align-items: center;
+}
+.c1-item2{
+    font-size: 20px;
+}
+.container2 h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.container2 li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.container2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container3 h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
