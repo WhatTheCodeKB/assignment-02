@@ -441,3 +441,133 @@ footer{
     justify-content: space-between;
 }
 
+/* media query*/
+@media screen and (max-width: 576px) {
+    .btn-typ2{
+        padding: 6px 24px;
+    }
+    .btn-typ2:hover{
+        padding: 6px 24px;
+    }
+    .navbar{
+        margin: 0px;
+        padding: 12px 16px;
+        border-bottom: 1px solid orange;
+        /* width: calc(100% - 34px); */
+        width: auto;
+        height: auto;
+    }
+    .brand,
+    .nav-links,
+    #nav-btn-typ1{
+        display: none;
+    }
+    .nav-menu-bar{
+       display: block; 
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 8px 16px;
+        column-gap: 0px;
+        width: calc(100% - 32px);
+    }
+    .banner-img{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        margin: 28px 0px 20px;
+    }
+    .banner-img> img{
+        height: auto;
+        width: calc(100% - 50px);
+    }
+    h1{
+        font-size: 32px;
+    }
+    .banner-slogan{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    .standard-curriculum{
+        padding: 40px 16px 0px;
+    }
+    .standard-curriculum h2{
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .container-ms1{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .card-ms1{
+        margin-bottom: 12px;
+    }
+    .arrow-btns{
+        display: none;
+    }
+    .our-stories{
+        padding: 40px 16px 0px;
+    }
+    .sec1{
+        grid-template-columns: 1fr;
+        margin-bottom: 20px;
+    }
+    .our-stories h2{
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .sec1-container1{
+        display: none;
+    }
+    .hide{
+        display: block;
+    }
+    .sec1-con2-card img{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .written2{
+        font-size: 10px;
+        font-weight: bold;
+        padding: 0px 20px 20px;
+    }
+    .date2{
+       position: relative;
+       top:-18px;
+       left: 20px;
+    }
+    .date-typ2{
+        font-size: 9px;
+        padding: 5px 9px;
+    }
+    .date-typ3{
+        font-size: 9px;
+        padding: 5px 9px;
+    }
+    .sec1-container2{
+        gap: 10px;
+    }
+    footer{
+        padding: 60px 12px 60px 21px;
+    }
+    .mom-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .c1-item1{
+        margin-bottom: 22px;
+    }
+    .c1-item2{
+        margin-bottom: 32px;
+    }
+    .container2 h3{
+        margin-bottom: 27px;
+    }
+    .container2{
+        margin-bottom: 32px;
+    }
+    .icons{
+        width: 45%;
+    }
+}
